@@ -1,4 +1,5 @@
 import "./styles.css";
+import "../../css/bracket.css";
 
 export const BookCard = ({ author, cover, link, title }) => {
   return (

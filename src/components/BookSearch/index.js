@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './styles.css'
+import "../../css/bracket.css";
 
 export const BookSearch = ({ setQuery }) => {
   const [inputValue, setInputValue] = useState("");
@@ -12,9 +13,10 @@ export const BookSearch = ({ setQuery }) => {
       setQuery(inputValue.toLocaleLowerCase());
   };
   return (
-    <div className="containerBookSearch">
-      <input className="inputBookSearch" onChange={handleInputValue}/>
-      <button onClick={handleClickBookSearch}>Search book</button>
+    <div className="containerBookSearch input-group">
+      <button disabled className="input-group-text">Input the book title </button>
+      <input id="inputBookSearch" className="inputBookSearch form-control" onChange={handleInputValue}/>
+      <button className="btn btn-primary" onClick={handleClickBookSearch}>Search book</button>
     </div>
   );
 };

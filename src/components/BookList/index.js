@@ -1,5 +1,7 @@
 import { BookCard } from "../BookCard";
 import "./styles.css";
+import "../../css/bracket.css";
+
 export const BookList = ({ books }) => {
   return (
     <div className="bookListContainer">
