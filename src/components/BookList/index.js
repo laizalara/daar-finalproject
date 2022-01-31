@@ -4,6 +4,8 @@ import "../../css/bracket.css";
 
 export const BookList = ({ books }) => {
   return (
+    <div className="row">
+  <div className="col-md-11">
     <div className="bookListContainer">
       {books.length !== 0 &&
         books.map((book) => {
@@ -17,6 +19,6 @@ export const BookList = ({ books }) => {
             />
           );
         })}
-    </div>
+    </div></div></div>
   );
 };

@@ -1,4 +1,5 @@
 .bookListContainer{
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
 }

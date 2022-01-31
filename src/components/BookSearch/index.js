@@ -14,7 +14,7 @@ export const BookSearch = ({ setQuery }) => {
   };
   return (
     <div className="containerBookSearch input-group">
-      <button disabled className="input-group-text">Input the book title </button>
+      <button disabled className="input-group-text">Input your research </button>
       <input id="inputBookSearch" className="inputBookSearch form-control" onChange={handleInputValue}/>
       <button className="btn btn-primary" onClick={handleClickBookSearch}>Search book</button>
     </div>
