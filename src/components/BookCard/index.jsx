@@ -7,7 +7,7 @@ export const BookCard = ({ author, cover, link, title }) => {
       <div className="bookTitle">{title}</div>
       <img className="bookImage" src={cover} alt={title} />
       <div className="bookAuthor">{author}</div>
-      <a href={link}> See the book </a>
+      <a className="myLink" href={link}> See the book </a>
     </div>
   );
 };

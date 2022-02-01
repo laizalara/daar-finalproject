@@ -1,10 +1,19 @@
 .containerBookSearch{
     margin: 0 auto;
     margin-top: 10px;
-    width: 500px;
+    width: 800px;
 
 }
 
 .inputBookSearch{
     margin-right: 15px;
+}
+
+#checkboxInput{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+#checkboxLabel{
+    margin-left: 1%;
+    margin-top: 2%;
 }
